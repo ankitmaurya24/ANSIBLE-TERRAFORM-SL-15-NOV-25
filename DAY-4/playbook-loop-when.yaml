@@ -1,5 +1,5 @@
 ---
-- hosts: dbservers
+- hosts: webservers
   become: yes
   vars:
     operation: install   # change to 'remove' to uninstall packages
